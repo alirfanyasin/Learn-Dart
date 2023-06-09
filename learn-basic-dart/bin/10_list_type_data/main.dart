@@ -6,7 +6,7 @@ void main() {
   */
 
   List<int> listInt = [1, 2, 3, 4]; // penulisan pertama
-  var list = [12, "Hello World", true, 20.5]; // penulisan pertama
+  var list = [12, "Hello World", true, 20.5]; // penulisan kedua
   var listString = <String>[]; // penulisan kedua
 
   print(listInt);
