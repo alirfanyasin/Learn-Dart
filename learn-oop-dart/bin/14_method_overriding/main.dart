@@ -7,7 +7,7 @@ class Manager {
 }
 
 class VicePresident extends Manager {
-  // Overriding
+  // Method Overriding
   void sayHello(String name) {
     print('Hello $name, my name is VP ${this.name}');
   }
@@ -25,7 +25,7 @@ void main() {
   */
 
   var manager = Manager();
-  print(manager.name = 'Dilna Azizah');
+  print(manager.name = 'Lubbil Fikri');
   manager.sayHello('Irfan Yasin');
 
   var vp = VicePresident();
